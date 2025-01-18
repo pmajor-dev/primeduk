@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeduk - Online Teaching</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Primeduk</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#signup" class="btn-primary">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Fun and Effective Online Learning for Kids!</h2>
+            <p>Join Primeduk to enhance your child's education with interactive and engaging lessons.</p>
+            <a href="#signup" class="btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Primeduk</h2>
+            <p>Primeduk is a leading platform for online teaching, focusing on children aged 4-12. Our lessons are interactive, fun, and personalized for every student.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>Interactive Lessons</h3>
+                    <p>Engage students with activities and real-time interaction.</p>
+                </div>
+                <div class="feature">
+                    <h3>Certified Teachers</h3>
+                    <p>All teachers are experienced and certified educators.</p>
+                </div>
+                <div class="feature">
+                    <h3>Flexible Scheduling</h3>
+                    <p>Choose times that fit your schedule.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <ol>
+                <li>Sign up for an account.</li>
+                <li>Schedule your lessons.</li>
+                <li>Start learning with our engaging teachers!</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: support@primeduk.com</p>
+            <p>Phone: +123-456-7890</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Primeduk. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
